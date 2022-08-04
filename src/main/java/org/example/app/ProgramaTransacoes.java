@@ -1,10 +1,9 @@
-package com.udemy.app;
+package org.example.app;
 
-import com.udemy.db.DB;
-import com.udemy.db.DbException;
+import org.example.db.DB;
+import org.example.db.DbException;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 

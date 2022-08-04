@@ -1,11 +1,10 @@
-package com.udemy.app;
+package org.example.app;
 
-import com.udemy.db.DB;
+import org.example.db.DB;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.text.SimpleDateFormat;
 
 public class ProgramaAtualizar {
 

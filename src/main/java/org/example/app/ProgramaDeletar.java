@@ -1,11 +1,9 @@
-package com.udemy.app;
+package org.example.app;
 
-import com.udemy.db.DB;
-import com.udemy.db.DbIntegrityException;
+import org.example.db.DB;
+import org.example.db.DbIntegrityException;
 
 import java.sql.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 
 public class ProgramaDeletar {
 

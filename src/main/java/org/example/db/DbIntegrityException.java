@@ -1,4 +1,4 @@
-package com.udemy.db;
+package org.example.db;
 
 public class DbIntegrityException extends RuntimeException {
 
