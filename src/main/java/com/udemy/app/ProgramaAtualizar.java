@@ -2,17 +2,17 @@ package com.udemy.app;
 
 import com.udemy.db.DB;
 
-import java.sql.*;
-import java.text.ParseException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 
 public class ProgramaAtualizar {
 
     public static void main(String[] args) {
 
-        Connection conn = null;
+        Connection conn;
         PreparedStatement ps = null;
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         String updateQuery = "update seller " +
                 "set BaseSalary = BaseSalary+? " +
