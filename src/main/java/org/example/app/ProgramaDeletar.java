@@ -9,7 +9,7 @@ public class ProgramaDeletar {
 
     public static void main(String[] args) {
 
-        Connection conn = null;
+        Connection conn;
         PreparedStatement ps = null;
 
         String deleteQuery = "delete from department where id = ?";

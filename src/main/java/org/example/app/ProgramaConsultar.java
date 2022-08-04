@@ -11,7 +11,7 @@ public class ProgramaConsultar {
 
     public static void main(String[] args) {
 
-        Connection conn = null;
+        Connection conn;
         Statement st = null;
         ResultSet rs = null;
 

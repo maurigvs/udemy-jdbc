@@ -10,7 +10,7 @@ public class ProgramaCadastrar {
 
     public static void main(String[] args) {
 
-        Connection conn = null;
+        Connection conn;
         PreparedStatement ps = null;
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -41,9 +41,7 @@ public class ProgramaCadastrar {
                 System.out.println("No rows affected!");
             }
 
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
+        } catch (SQLException | ParseException e) {
             e.printStackTrace();
         } finally {
             DB.closeStatement(ps);
